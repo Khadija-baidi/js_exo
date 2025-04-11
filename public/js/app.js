@@ -156,3 +156,18 @@ function arrayIntersection(arr1, arr2) {
 
 console.log(arrayIntersection([1, 2, 3, 4], [3, 4, 5, 6])); 
 console.log(arrayIntersection([10, 20], [30, 40]));
+
+// fibonacci exo
+const number = 7;
+ function Fibonacci() {
+   let a = 0, b = 1, c;
+   
+   for (let i = 1; i <= number; i++) {
+       console.log(a);
+       c = a + b;
+       a = b;
+       b = c;
+   }
+ }
+ 
+ Fibonacci();
